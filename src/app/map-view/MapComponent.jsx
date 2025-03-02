@@ -4,7 +4,7 @@ import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 
 function MapComponent() {
-  const position = [-6.3509691, 106.9463964]; // Jakarta
+  const position = [-7.782794123757193, 110.36709914609082];
 
   return (
     <MapContainer
