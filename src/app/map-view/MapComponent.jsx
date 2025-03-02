@@ -9,9 +9,11 @@ function MapComponent() {
   return (
     <MapContainer
       center={position}
-      zoom={13}
+      zoom={17}
       scrollWheelZoom={false}
       style={{ height: "100vh", width: "100%" }}
+      zoomControl={false}
+      attributionControl={false}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
